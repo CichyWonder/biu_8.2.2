@@ -9,28 +9,28 @@ const Add = () => {
   const query = useQuery();
   const x = Number(query.get('x'));
   const y = Number(query.get('y'));
-  return <h2>{x} + {y} = {x + y}</h2>
+  return <h2>{x + y}</h2>
 }
 
 const Subtract = () => {
   const query = useQuery();
   const x = Number(query.get('x'));
   const y = Number(query.get('y'));
-  return <h2>{x} - {y} = {x - y}</h2>
+  return <h2>{x - y}</h2>
 }
 
 const Multiply = () => {
   const query = useQuery();
   const x = Number(query.get('x'));
   const y = Number(query.get('y'));
-  return <h2>{x} * {y} = {x * y}</h2>
+  return <h2>{x * y}</h2>
 }
 
 const Divide = () => {
   const query = useQuery();
   const x = Number(query.get('x'));
   const y = Number(query.get('y'));
-  return <h2>{x} / {y} = {x / y}</h2>
+  return <h2>{x / y}</h2>
 }
 
 const App = () => {
